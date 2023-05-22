@@ -70,7 +70,7 @@ h2{
 }
 
 .h2ListIngridient{
-    display: block;
+    display: block; 
     margin: 0;
     padding: 0;
 }
@@ -89,5 +89,54 @@ h2{
     padding-right: 2px;
     padding-bottom: 2px;
     padding-left: 10px;
+}
 
+.stepDiscrp{
+    text-align: center;
+    margin: 0;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.timeCocking{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.alingItem{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stepCocking{
+    margin-bottom: 50px;
+    margin-left: 10px;
+    width: 700px;
+    border: 5px solid rgba(175, 159, 15, 0.61);
+    border-radius: 1em;
+    background-color: rgba(175, 159, 15, 0.322);
+
+}
+
+.stepCocking h3{
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.stepCocking img{
+    border-radius: 1em;
+}
+
+.stepCocking p{
+    padding-right: 12px;
+    padding-left: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: justify;
 }
