@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img{
+    max-width: 100%;
+}
